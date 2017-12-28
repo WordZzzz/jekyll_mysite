@@ -47,8 +47,8 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                : "6LfdjD4UAAAAAHDcvTvbQLbtdCH00h44SLtYzV1w"
-  secret                 : "oy+zSnaLfcfQvhUDGd6BjL0u/i2ei9pmd28k25ju+o7DYxh1/YzK/nC/aSQWLHG8e/OFpR5SkwiEzQ6Er55e/wDxRShQfj8nF3+QDZbGue3M8p/maPCqHfekaB5WWH1W0ZbGYqc5XFT16QncvWgOSiIQm1r02as7z5/4Z9glaKY="
+  siteKey                : #"6LfdjD4UAAAAAHDcvTvbQLbtdCH00h44SLtYzV1w"
+  secret                 : #"oy+zSnaLfcfQvhUDGd6BjL0u/i2ei9pmd28k25ju+o7DYxh1/YzK/nC/aSQWLHG8e/OFpR5SkwiEzQ6Er55e/wDxRShQfj8nF3+QDZbGue3M8p/maPCqHfekaB5WWH1W0ZbGYqc5XFT16QncvWgOSiIQm1r02as7z5/4Z9glaKY="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
