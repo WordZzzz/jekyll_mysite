@@ -18,7 +18,7 @@ baseurl                  : #"/wordzzzz.github.io"
 repository               : "WordZzzz/wordzzzz.github.io"
 teaser                   : "/assets/images/SC06C04.png"
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 50
 comments:
   provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
