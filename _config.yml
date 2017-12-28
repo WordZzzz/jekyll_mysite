@@ -15,7 +15,7 @@ name                     : &name "Word Zzzz"
 description              : &description "An amazing website."
 url                      : "https://WordZzzz.github.io"
 baseurl                  : #"/wordzzzz.github.io"
-repository               : "WordZzzz/wordzzzz.github.io"
+repository               : "wordzzzz/wordzzzz.github.io"
 teaser                   : "/assets/images/SC06C04.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 50
