@@ -47,8 +47,8 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey: "6LfdjD4UAAAAAHDcvTvbQLbtdCH00h44SLtYzV1w"
-  secret: "oy+zSnaLfcfQvhUDGd6BjL0u/i2ei9pmd28k25ju+o7DYxh1/YzK/nC/aSQWLHG8e/OFpR5SkwiEzQ6Er55e/wDxRShQfj8nF3+QDZbGue3M8p/maPCqHfekaB5WWH1W0ZbGYqc5XFT16QncvWgOSiIQm1r02as7z5/4Z9glaKY="
+  siteKey                : "6LfdjD4UAAAAAHDcvTvbQLbtdCH00h44SLtYzV1w"
+  secret                 : "oy+zSnaLfcfQvhUDGd6BjL0u/i2ei9pmd28k25ju+o7DYxh1/YzK/nC/aSQWLHG8e/OFpR5SkwiEzQ6Er55e/wDxRShQfj8nF3+QDZbGue3M8p/maPCqHfekaB5WWH1W0ZbGYqc5XFT16QncvWgOSiIQm1r02as7z5/4Z9glaKY="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -68,7 +68,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -120,7 +120,6 @@ author:
 include:
   - .htaccess
   - _pages
-  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -194,7 +193,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-remote-theme
+  
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -202,7 +202,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-remote-theme
 
 # Archives
 #  Type
@@ -247,7 +247,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
