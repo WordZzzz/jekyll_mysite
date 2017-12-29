@@ -10,8 +10,8 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "zh-CN"
 title                    : "My Awesome Site"
-title_separator          : "-"
-name                     : "Word Zzzz"
+title_separator          : "|"
+name                     : #"WordZzzz"
 description              : "An amazing website."
 url                      : "https://WordZzzz.github.io"
 baseurl                  : #"/wordzzzz.github.io"
@@ -173,8 +173,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -256,6 +256,7 @@ defaults:
       comments: true
       share: true
       related: true
+      search: true
   # _pages
   - scope:
       path: ""
