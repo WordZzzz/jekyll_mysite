@@ -1,11 +1,12 @@
 ---
-layout: splash
-permalink: /
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/SC01C25.jpg
-  cta_label: "<i class='fa fa-download'></i> Visit Now"
-  cta_url: "/posts/"
-  caption:
-excerpt: 'Word Zzzz<br /> '
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: false
 ---
+
+<div class="grid__wrapper">
+  {% for post in site.portfolio %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
