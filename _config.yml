@@ -16,7 +16,7 @@ description              : "An amazing website."
 url                      : "https://WordZzzz.github.io"
 baseurl                  : #"/wordzzzz.github.io"
 repository               : "wordzzzz/wordzzzz.github.io"
-teaser                   : "/assets/images/images.jpg"
+teaser                   : "/assets/images/wz2.jpg"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 50
 comments:
